@@ -9,6 +9,7 @@ WITH SERDEPROPERTIES (
 'field.delim'='', 
 'mapkey.delim'='', 
 'serialization.format'='') 
+
 STORED AS INPUTFORMAT 
 'org.apache.hadoop.mapred.TextInputFormat' 
 OUTPUTFORMAT 

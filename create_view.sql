@@ -1,0 +1,2 @@
+CREATE VIEW v_all_orc as SELECT *  FROM dw_shentong_orc UNION SELECT *  FROM dw_shunfeng_orc UNION SELECT *  FROM dw_yuantong_orc
+UNION SELECT *  FROM dw_yunda_orc UNION SELECT * FROM dw_zhaijisong_orc
